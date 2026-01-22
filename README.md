@@ -18,7 +18,8 @@ Project shows both logistic regression and LGBM models to be effective for senti
 | Model | Accuracy | F1 | Presicion | ROC AUC |
 | --- | --- | --- | --- | --- | 
 | NLTK, TF-IDF and LR | 0.88 | 0.88 | 0.95 | 0.95 |
-| asdd| asdasd| 
+| spaCy, TF-IDF and LR | 0.88 | 0.88 | 0.94 | 0.95 |
+| spaCy, TF-IDF and LGBMClassifier | 0.86 | 0.86 | 0.94 | 0.94 |
 
 Logistic regression with nlltk preprocessed text appears to perform better than other models.
 Functionality of models seems to be confirmed when comparing F1 score with review probabilities. As most models appear to predict low probabilities for either one or two reviews that could potentialy be positive. This corelates to the diferent models F1 score of around 0.80.
