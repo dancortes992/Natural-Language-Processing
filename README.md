@@ -16,7 +16,7 @@ To train a model that automatically detects negative film reviews. Conduct train
 Project shows both logistic regression and LGBM models to be effective for sentiment analysis, with some key takeaways to note:
 
 | Model | Accuracy | F1 | Presicion | ROC AUC |
-| --- | --- |
+| --- | --- | --- | --- | --- | 
 | NLTK, TF-IDF and LR | 0.88 | 0.88 | 0.95 | 0.95 |
 | asdd| asdasd| 
 
