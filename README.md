@@ -21,6 +21,6 @@ Probaility prediction versus bipolar sentiment prediction, appears to be better 
 
 ## Software
 
-**Tools:** _python_, ._torch_, _tqdm_, _jupyter_
+**Tools:** _python_, _torch_, _tqdm_, _jupyter_
 
 **Libraries:** _pandas_, _NumPy_, _matplotlib_, _scikit-learn_, _seaborn_, _LightGBM_, _NLTK_, _spaCy_, _TF-IDF_
