@@ -7,9 +7,11 @@ This project is part of the Tripleten data science practicum. The focus of this 
 
 To train a model that automatically detects negative film reviews. Conduct training on three different models as well of composing personally written reviews to test model funcionality. Model must reach an F1 score of 0.85.
 
-**Models evaluated:** LogisticRegression, LightGBM, NLTK, SPACY, TF-IDF
+**Text Preprocessing tools:** NLTK, SPACY, TF-IDF, BERT
 
-**Evaluation metrics:** F1 score, accuracy, precision.
+**Models evaluated:** LogisticRegression, LightGBM
+
+**Evaluation metrics:** F1 score, accuracy, precision. ROC-AUC
 
 ## Findings
 
@@ -20,8 +22,10 @@ Project shows both logistic regression and LGBM models to be effective for senti
 | NLTK, TF-IDF and LR | 0.88 | 0.88 | 0.95 | 0.95 |
 | spaCy, TF-IDF and LR | 0.88 | 0.88 | 0.94 | 0.95 |
 | spaCy, TF-IDF and LGBMClassifier | 0.86 | 0.86 | 0.94 | 0.94 |
+| BERT and Logistic Regression | 0.88 | 0.88 | 0.95 | 0.95 |
+| BERT and LGBMClassifier | 0.86 | 0.86 | 0.94 | 0.93 |
 
-Logistic regression with nlltk preprocessed text appears to perform better than other models.
+BERT preprocessing with Logistic regression with appears to perform better than other models.
 Functionality of models seems to be confirmed when comparing F1 score with review probabilities. As most models appear to predict low probabilities for either one or two reviews that could potentialy be positive. This corelates to the diferent models F1 score of around 0.80.
 Probaility prediction versus bipolar sentiment prediction, appears to be better suitied for classifiying movie reviews. This offers greater sentiment distribution not available in bipolar classification. In this case, one could argue model using LGBM from probability prediction is best model. However F1 score still puts logistic regression for bipolar classification higher.
 
